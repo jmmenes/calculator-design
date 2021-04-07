@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator Design</title>
+    <link rel="stylesheet" href="calculator-design.css" />
+  </head>
+  <body>
+    <div id="app">
+      <!--  -->
+      <div id="calculator">
+        <div id="calculator-display">
+          <h2 id="display-input"></h2>
+        </div>
+        <div id="texas">
+          <p>TEXAS &nbsp;INSTRUMENTS</p>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <h1>TI-108</h1>
+        </div>
+        <div id="solar-block"></div>
+        <div id="calculator-buttons-grandparent">
+          <div class="calculator-buttons-parent-1">
+            <div class="calculator-buttons operators add function-buttons">
+              +
+            </div>
+            <div class="calculator-buttons num">7</div>
+            <div class="calculator-buttons num">4</div>
+            <div class="calculator-buttons num">1</div>
+            <div class="calculator-buttons clear function-buttons">C</div>
+          </div>
+          <div class="calculator-buttons-parent-2">
+            <div class="calculator-buttons operators subtract function-buttons">
+              -
+            </div>
+            <div class="calculator-buttons num">8</div>
+            <div class="calculator-buttons num">5</div>
+            <div class="calculator-buttons num">2</div>
+            <div class="calculator-buttons num">0</div>
+          </div>
+          <div class="calculator-buttons-parent-3">
+            <div
+              class="calculator-buttons operators multiply function-buttons"
+              data-number="*"
+            >
+              *
+            </div>
+            <div class="calculator-buttons num">9</div>
+            <div class="calculator-buttons num">6</div>
+            <div class="calculator-buttons num">3</div>
+            <div class="calculator-buttons num">.</div>
+          </div>
+          <div class="calculator-buttons-parent-4">
+            <div
+              class="calculator-buttons operators divide function-buttons"
+              data-number="/"
+            >
+              /
+            </div>
+            <div id="equal-button">=</div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

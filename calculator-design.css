@@ -1,0 +1,151 @@
+/* Background */
+body {
+  background-image: url(calc.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/*===========================================*/
+/* Calculator dimensions, spacing */
+#calculator {
+  /* Air Force Blue */
+  background-color: #00308f;
+  height: 70%;
+  width: 25%;
+  border-radius: 3%;
+}
+
+#calculator-display {
+  height: 13%;
+  width: 80%;
+  background-color: #bedfcd;
+  border-radius: 3px;
+  margin: auto;
+  margin-top: 9%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#display-input {
+  color: #484848;
+  font-size: 3rem;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+/* Text */
+#texas {
+  margin-top: 2%;
+  text-align: center;
+  color: white;
+}
+
+p {
+  display: inline;
+}
+
+h1 {
+  display: inline;
+}
+/* Text */
+
+#solar-block {
+  height: 7%;
+  width: 35%;
+  /* Artichoke */
+  background-color: #8f9779;
+  border-radius: 1px;
+  margin-top: 3%;
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#calculator-buttons-grandparent {
+  height: 70%;
+  width: 86%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.calculator-buttons-parent-1 {
+  height: 80%;
+  width: 20%;
+  justify-content: space-evenly;
+}
+
+.calculator-buttons-parent-2 {
+  height: 80%;
+  width: 20%;
+}
+
+.calculator-buttons-parent-3 {
+  height: 80%;
+  width: 20%;
+}
+
+.calculator-buttons-parent-4 {
+  height: 80%;
+  width: 20%;
+}
+
+/*===========================================*/
+/* Button colors, font, size, effects etc. */
+.calculator-buttons {
+  height: 15%;
+  width: 100%;
+  margin-top: 15%;
+  /* Platinum */
+  background-color: #e5e4e2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Byzantine Blue */
+  color: #3457d5;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.function-buttons {
+  background-color: #ce2029;
+  color: white;
+}
+
+#equal-button {
+  height: 69%;
+  width: 100%;
+  /* Fire Engine Red*/
+  background-color: #ce2029;
+  margin-top: 15%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+
+.calculator-buttons:hover {
+  background-color: rgba(5, 5, 5, 0.3);
+}
+
+#equal-button:hover {
+  background-color: rgba(5, 5, 5, 0.3);
+}
